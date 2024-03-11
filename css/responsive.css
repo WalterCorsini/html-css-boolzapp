@@ -34,8 +34,85 @@
     footer .icon{
         display: block;
     }
-
+}
 
 @media screen and (min-width: 992px) {
     
+    body{
+        height: 100vh;
+        position: relative;
+    }
+    .header-desktop{
+        display: block;
+    }
+
+    .footer-desktop{
+        display: block;
+    }
+
+    main{
+        height: 95vh;
+        position: absolute;
+        width: 80%;
+        top: 2%;
+        left: 10%;
+    }
+
+    .first-container{
+        width: 40%;
+    }
+    
+    .second-container{
+        width: 60%;
+    }
+
+    .user-card ul{
+        display: flex;
+    }
+    
+    .user-card img{
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    #li-notify{
+        display: flex;
+    }
+
+    #li-search{
+        display:flex;
+    }
+    
+    .friend-name{
+        display: block;
+    }
+    .friend-card{
+        display: flex;
+        position: relative;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .friend-card{
+        font-size: 20px;
+    }
+
+    .friend-name span{
+        font-size: 17px;
+        color: rgb(126, 126, 126);
+    }
+
+    .friend-name span:last-child{
+        position: absolute;
+        top: 15%;
+        right: 5%;
+    }
+
+
+    .friend-card img{
+        margin: 0;
+        margin-left:25px;
+        margin-right: 10px;
+    }
+
 }

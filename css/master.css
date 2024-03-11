@@ -28,11 +28,19 @@ main{
 }
 
 .header-desktop{
-    border-top: 100px solid rgb(0, 150, 136);
+    height: 10vh;
+    background-color: rgb(0, 150, 136);
     display:none;
 }
+
+.footer-desktop{
+    height:90vh;
+    background-color: rgb(219, 223, 216);
+}
+
 .first-container{
     display:none;
+    overflow-y: scroll;
 }
 
 .second-container{
@@ -72,26 +80,100 @@ main{
     font-size: 25px;
 }
 
+
 .list-header li:last-child{
     padding-right: 30px;
 }
 
+
 /* section list-chat */
-.list-chat{
-    display: none;
-}
 
 .list-chat{
+    display: none;
     height: 100vh;
     max-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .list-chat div:first-child{
     background-color: rgb(234, 234, 234);
     border-right: 1px solid rgb(151, 151, 151);
+}
+
+.list-chat .friend-card{
+    width: 100%;
+    height: calc(100% / 9);
+    border-top: 1px solid rgb(151, 151, 151);
+    background-color: white;
+}
+
+.user-card,
+.user-card ul{
+    display: flex;
+    align-items: center;
+}
+
+.user-card{
+    justify-content: space-between;
+}
+
+.user-card ul{
+padding-right: 15px;
+gap: 10px;
+font-size: 25px;
+color: #6b7376;
+display: none;
+}
+
+#li-notify{
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(142, 218, 252);
+    height: 15vh;
+    width: 100%;
+    display: none;
+}
+
+#li-notify i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(142, 218, 252);
+}
+
+#li-notify h3{
+    font-size: 15px;
+}
+
+#li-notify a{
+    color: rgb(126, 126, 126);
+}
+
+#li-search{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+}
+
+#li-search input{
+    width:70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+#li-search .icon{
+    background-color:white;
+    padding: 11px;
+} 
+
+.friend-name{
+    display: none;
 }
 
 .list-chat img{
@@ -103,15 +185,11 @@ main{
     margin:0 auto;
 }
 
-.list-chat div{
-    width: 100%;
-    height: calc(100% / 9);
-    border-top: 1px solid rgb(151, 151, 151);
-}
 
 /* section-chat */
 
 .section-chat{
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     width: 100%;
