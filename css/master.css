@@ -1,9 +1,84 @@
+
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+img{
+    max-width: 100%;
+}
+
+/* common */
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.header-desktop{
     border-top: 100px solid rgb(0, 150, 136);
     display:none;
+}
+
+/* main-header */
+.main-header{
+    display: flex;
+    background-color: rgb(234,234,234);
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-header img{
+    max-width: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* section-chat */
+
+.section-chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    padding: 30px;
+    background-image: url(../img/mine.jpg);
+}
+
+.message{
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 70%;
+    padding: 10px 30px 10px 10px;
+}
+
+.me-chat{
+    background-color: rgb(255, 255, 255);
+    align-self: flex-start;
+}
+
+.you-chat{
+    background-color: rgb(213, 249, 186);
+    align-self: flex-end;
+
+}
+
+.section-chat i{
+    position: absolute;
+    top: 13%;
+    right: 3%;
+    color: rgb(182, 185, 187);
+
+}
+
+.section-chat span{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    color: rgb(182, 185, 187);
 }
