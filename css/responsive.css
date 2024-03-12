@@ -14,6 +14,7 @@
 
     .main-header{
         display: flex;
+        height: 80px;
         justify-content: space-between;
     }
     /* first container */
@@ -23,7 +24,7 @@
     }
 
     .user-card{
-        height: 116px;
+        height: 80px;
     }
 
     /* second container */
@@ -74,7 +75,7 @@
     }
     
     .user-card {
-        height: 145px;
+        height: 80px;
     }
 
     .user-card ul{
