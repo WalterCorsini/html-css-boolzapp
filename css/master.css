@@ -215,18 +215,57 @@ main {
     align-self: flex-end;
 }
 
-.section-chat i {
+.section-chat i{
     position: absolute;
-    top: 2%;
-    right: 3%;
-    color: rgb(182, 185, 187);
+    top: 0%;
+    right: 0%;
+    color: rgb(192, 192, 192);
 }
 
-.section-chat span {
+.chevron{
+    color: rgb(192, 192, 192);
+    position: absolute;
+    height: 120px;
+    top:3%;
+    right: 3%;
+}
+
+.chevron span{
+    color: black;
+}
+
+.menu-ham{
+    transition-duration: 1s;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    flex-direction: column;
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px rgb(143, 143, 143);
+}
+
+.menu-ham span{
+    display: block;
+    margin-bottom: 5px;
+    font-family: serif;
+    font-weight: 100;
+}
+
+.message>span {
     position: absolute;
     bottom: 3%;
     right: 3%;
     color: rgb(182, 185, 187);
+}
+
+.chevron:hover .menu-ham {
+    opacity: 1;
+    transition: 0s;
 }
 
 /* section input-message */
