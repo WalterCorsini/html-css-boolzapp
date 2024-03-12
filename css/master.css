@@ -104,6 +104,10 @@ main {
     background-color: white;
 }
 
+.list-chat .friend-card:hover{
+    background-color:rgb(234, 234, 234);
+}
+
 .user-card,
 .user-card ul {
     display: flex;
