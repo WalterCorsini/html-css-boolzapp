@@ -69,6 +69,10 @@
         width: 350px;
     }
     
+    .user-card {
+        height: 128px;
+    }
+
     .user-card ul{
         display: flex;
     }
@@ -113,7 +117,7 @@
     
     .friend-card img{
         margin: 0;
-        margin-left:25px;
+        margin-left:5px;
         margin-right: 10px;
     }
 

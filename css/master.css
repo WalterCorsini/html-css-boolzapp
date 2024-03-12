@@ -97,11 +97,6 @@ main {
     flex-direction: column;
 }
 
-.list-chat div:first-child {
-    background-color: rgb(234, 234, 234);
-    border-right: 1px solid rgb(237,237, 237);
-}
-
 .list-chat .friend-card {
     width: 100%;
     height: calc(100% / 9);
@@ -117,6 +112,9 @@ main {
 
 .user-card {
     justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    border-right: 1px solid rgb(237,237, 237);
+    height: 101px;
 }
 
 .user-card ul {
@@ -182,7 +180,7 @@ main {
     display: block;
     border-radius: 50%;
     width: 100%;
-    max-width: 80px;
+    max-width: 70px;
     padding: 5px;
     margin: 0 auto;
 }
