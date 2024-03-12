@@ -18,17 +18,16 @@
     }
     /* first container */
     .first-container{
-        width: 10%;
+        width: 100px;
         display: block;
     }
 
     /* second container */
     .second-container{
-        width: 90%;
+        width: calc(100% - 100px);
         display: flex;
         flex-direction: column;
     }
-
 
     /* footer */
     .input-message{
@@ -40,7 +39,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     /* common */
     body{
         height: 100vh;
@@ -67,7 +66,7 @@
 
     /* first container */
     .first-container{
-        width: 40%;
+        width: 350px;
     }
     
     .user-card ul{
@@ -120,7 +119,7 @@
 
 /* second container */
     .second-container{
-        width: 60%;
+        width: calc(100% - 350px);
     }
 
 }

@@ -37,6 +37,9 @@ main {
 
 .first-container {
     display: none;
+}
+
+.overflow{
     overflow-y: scroll;
 }
 
@@ -60,7 +63,7 @@ main {
 }
 
 .img-header img {
-    max-width: 90px;
+    max-width: 80px;
     aspect-ratio: 1;
     border-radius: 50%;
     padding: 15px;
@@ -75,7 +78,7 @@ main {
 }
 
 .list-header {
-    color: rgb(107, 115, 118);
+    color: rgb(181,181,181);
     font-size: 25px;
 }
 
@@ -96,13 +99,13 @@ main {
 
 .list-chat div:first-child {
     background-color: rgb(234, 234, 234);
-    border-right: 1px solid rgb(151, 151, 151);
+    border-right: 1px solid rgb(237,237, 237);
 }
 
 .list-chat .friend-card {
     width: 100%;
     height: calc(100% / 9);
-    border-top: 1px solid rgb(151, 151, 151);
+    border-top: 1px solid rgb(237, 237, 237);
     background-color: white;
 }
 
@@ -120,7 +123,7 @@ main {
     padding-right: 15px;
     gap: 20px;
     font-size: 25px;
-    color: #6b7376;
+    color: rgb(181,181,181);
     display: none;
 }
 
@@ -147,7 +150,7 @@ main {
 }
 
 #li-notify a {
-    color: rgb(126, 126, 126);
+    color: rgb(181,181,181);
 }
 
 #li-search {
@@ -155,6 +158,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgb(234, 234, 234);
+    color: rgb(181, 181, 181);
     text-align: center;
 }
 
@@ -200,7 +204,7 @@ main {
     border-radius: 10px;
     margin-bottom: 5px;
     width: 70%;
-    padding: 10px 30px 10px 10px;
+    padding: 10px 45px 10px 10px;
 }
 
 .me-chat {
