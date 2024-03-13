@@ -103,6 +103,10 @@
         display: block;
     }
 
+    .list-chat{
+        height: 95vh;
+    }
+
     .list-chat .friend-card {
         height: 90px;
         display: flex;
