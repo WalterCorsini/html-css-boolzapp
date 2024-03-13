@@ -85,6 +85,11 @@
     .user-card ul{
         display: flex;
     }
+
+    .user-card a,
+    .list-header a{
+        color: rgb(181, 181, 181);
+    }
     
     .user-card img{
         margin: 0;
