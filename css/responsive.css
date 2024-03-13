@@ -34,6 +34,10 @@
         flex-direction: column;
     }
 
+    .message{
+        min-width: 459px;
+        max-width: 471px;
+    }
     /* footer */
     .input-message{
         width: 87%;
